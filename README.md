@@ -27,11 +27,11 @@
 - **Ruff** is used for linting and maintaining code quality.
 - To run Ruff linting manually:
   ```
-  uv run ruff check .
+  uv run ruff check
   ```
 - To automatically fix issues:
   ```
-  uv run ruff check . --fix
+  uv run ruff check --fix
   ```
 - See `.ruff.toml` for project-specific configuration.
 
